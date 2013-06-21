@@ -13,7 +13,7 @@ import java.util.Map;
 public class CommonConst {
     public static final String STRING_SEED = "P7o5ADovz7wajNoghr4eBzhA45XdJDi9PqRHxglnAueEH/x7jyjYcezumJhrGFZ183b+EhbI4gKH8Oad4WulQ1rLQitYDygqVZSjurilDJuQBTdvboZLi0w7fb9BdXMEY4UT7yPIOLi5xd2Pc5UWBqXfkehYe9T4XB1XJKz+gNo=";
     public static final String STRING_PID = "B19hs+fYcQI/hk8kodGxMFCJzamtdFV9J92PaeknwMCKMJ2pJIR7RtM/z4Xzy3YGTmYYbswS8xh21uxVM4kNc85P34D7kPDhOzRxBX37vt/aVEC6jy9yist7QipOGrr2Dgydn3kIJbHUzjO9utyPvod2+L8Xr6xHc8tmkHF/DDQ=";
-    public static final String STRING_SU_PIN = "Kw7gnxewesFdB2AvNMM/lYBSV+ncOA883BU1vFOvAs/YEPKTN0UIdrIve4y7OBu9h4yYBN+949uivKzLzQ4Dvk8fJeTAMV4wrh2OB5a02TVSHWpaPj34hzYmWPSOPZI/kYEg+tzNcGYfF3fFOdWAnM4g7+LklHMFpORPOtSbOow=";
+    public static final String STRING_SO_PIN = "Kw7gnxewesFdB2AvNMM/lYBSV+ncOA883BU1vFOvAs/YEPKTN0UIdrIve4y7OBu9h4yYBN+949uivKzLzQ4Dvk8fJeTAMV4wrh2OB5a02TVSHWpaPj34hzYmWPSOPZI/kYEg+tzNcGYfF3fFOdWAnM4g7+LklHMFpORPOtSbOow=";
     public static final String STRING_USER_PIN = "V7zlPqN3ZxMD66BpFCiurXYHf2//UjsxACwKc4mALboAS5d7ktnC1UxbwGhs2k4hKvQzSU6CyyEa3CsAs9m6vGrkVMHjyTbVje37cSd8RebcCipZa93xqGqOR9AUCggTuZW28NwnlBrvZV5tFdtyPhFxaerkVKQChA3CLIZMJ4M=";
 
 

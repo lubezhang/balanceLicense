@@ -5,6 +5,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import static junit.framework.Assert.assertNull;
+
 /**
  * Created with IntelliJ IDEA.
  * User: zhangqinghong

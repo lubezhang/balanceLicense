@@ -1,6 +1,7 @@
 package com.lube.encrypt.licenseCode;
 
 import com.lube.encrypt.utils.RSACoder;
+import com.lube.encrypt.utils.RSACoderPrivate;
 import org.apache.log4j.Logger;
 
 /**
@@ -16,10 +17,10 @@ public class AuthorizationCode {
     public String generateCode(String activateCode){
         String authCode = "";
         try {
-            String code = RSACoder.decryptByPrivateKey(activateCode);
+            String code = RSACoderPrivate.decryptByPrivateKey(activateCode);
             logger.debug(code);
 //            JSONObject json = JSONObject.fromObject(authCode);
-            authCode = RSACoder.encryptByPrivateKey(code);
+            authCode = RSACoderPrivate.encryptByPrivateKey(code);
         } catch (Exception e) {
             logger.error(e);
         }
@@ -27,7 +28,7 @@ public class AuthorizationCode {
     }
 
     public static void main(String[] args){
-        String activateCode = "OJxs/zgWOZDYaC64gOE1qCcGf1+K9tiMRAbcq4WCp6hjelMzEzosUpuraKIleZdWL28r3cljjgDyS4J0UeauUVuI49Kr7Ey3REWLYsAOLzGKNQvdu5YB82gwHJAoqxOEa9Y4v7v5COpE5ruzVu8aGhhrGGQN9LOouK0M5FOVxpE=";
+        String activateCode = "gXjXncaVR551MmqSQu8KVqCUCiIKpwJH09bfkRVvLDkfehZ9nRSDBKYcGICk1rsiUy4+8R2TSy2nmV4ax+rkGWd4eP+1oMKO37kxi6VVUGXQKC3hdJBYJQB2/b96AJ4GW9IMM3QGrpufYqXEvDg4AV4tukKcuCoAuNiVOgHA1mA=";
         AuthorizationCode authorizationCode = new AuthorizationCode();
         System.out.println(authorizationCode.generateCode(activateCode));
 

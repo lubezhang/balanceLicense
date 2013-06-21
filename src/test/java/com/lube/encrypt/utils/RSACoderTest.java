@@ -27,7 +27,7 @@ public class RSACoderTest {
     public void testCrypt(){
         String strTest = "单元测试";
         try {
-            String encode = RSACoder.encryptByPrivateKey(strTest);
+            String encode = RSACoderPrivate.encryptByPrivateKey(strTest);
             Assert.assertEquals(strTest, RSACoder.decryptByPublicKey(encode));
         } catch (Exception e) {
             Assert.assertTrue(false);
